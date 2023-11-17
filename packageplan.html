@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places | Booking</title>
+    <link href="packageplan.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <h1 data-text="Historical Places In India"></h1>
+    </header>
+    <nav>
+        <a id="c" href="#"><i style="padding: 5px;" class="bi bi-bullseye"></i>RoamWave</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="packageplan.html">Book Ticket</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="loginn.html">Login/ Sign up</a>
+    </nav>
+    <main>
+        <content>
+            <h2 style="text-decoration:none; color: rgb(25, 28, 28); font-weight: 900; padding:1vw; font-size: 1.8vw; ">Book Ticket</h2>
+        </content>
+        <content>
+            <form action="Thankyou2.html">
+                <div align="center">
+                    <h2>Basic Informatiom</h2>
+                    <p>Full Name:<input type="text" id="text" name="text" required placeholder="Alice"></p> <br>
+                   <p> Email Id:<input type="email" id="email" name="email" required placeholder="alice4@gmail.com"></p><br>
+                   <p> Mobile Number:<input type="number" id="number" name="number" required placeholder="Enter mobile no."></p><br>
+                    <fieldset> 
+                        <legend><p>Gender</p></legend>
+                   <p>Male<input type=radio name="gender" id="male"></p>
+                  <p> Female<input type=radio name="gender" id="female"></p>
+                </fieldset><br>
+                <p>Address:<textarea name="Address" id="Address" cols="100" rows="8" placeholder="Enter your Address"></textarea></p><br>
+                <p>Pincode:<input type="number" name="pincode" id="pincode" placeholder="321456"></p><br>
+                <p>Preferred Location I:
+                <select name="Location" id="Location">
+                    <option value="">--Select a Location--</option>
+                    <option value="Taj Mahal">Taj Mahal</option>
+                    <option value="Chittor Fort">Chittor Fort</option>
+                    <option value="Humayun's Tomb">Humayun's Tomb</option>
+                    <option value="City Palace">City Palace</option>
+                    <option value="Gwalior Fort">Gwalior Fort</option>                  
+                    <option value="Mysore Palace">Mysore Palace</option>
+                    <option value="Hawa Mahal">Hawa Mahal</option>
+                    <option value="Hampi">Hampi</option>
+                </select></p><br>
+                <p>Preferred Location II:
+                <select name="Location" id="Location">
+                    <option value="">--Select a Location--</option>
+                    <option value="Taj Mahal">Taj Mahal</option>
+                    <option value="Chittor Fort">Chittor Fort</option>
+                    <option value="Humayun's Tomb">Humayun's Tomb</option>
+                    <option value="City Palace">City Palace</option>
+                    <option value="Gwalior Fort">Gwalior Fort</option>                  
+                    <option value="Mysore Palace">Mysore Palace</option>
+                    <option value="Hawa mahal">Hawa Mahal</option>
+                    <option value="Hampi">Hampi</option>
+                </select></p><br>
+               <p> No. of Days:<input type="number" id="number" name="number" required placeholder="Enter Number of Days."></p><br>
+                <p>Date of Trip:<input type="date" name="date of trip" id="date of trip"></p><br>
+                <h2>Hotel Details</h2>
+                   <p>No. of Individuals:<input type="number" name="number" id="number" required placeholder="No. of individuals"></p><br>
+                   <p>Hotel Type:
+            <select name="Hotel Type:" id="hotel type">
+                <option value="">--Select a hotel type--</option>
+                <option value="Normal">Normal</option>
+                <option value="Motel">Motel</option>
+                <option value="4 star">5 Star</option>
+                <option value="5 star">4 Star</option>
+            </select></p><br>
+               <p>Budget:
+            <select name="Budget" id="budget">
+                <option value="">--Select a budget--</option>
+                <option value="5k">1k-5k</option>
+                <option value="10k">5k-10k</option>
+                <option value="15kr">10k-25k</option>
+                <option value="20k">15k-20k</option>
+            </select></p><br>
+            <p>Food Preferance I:
+            <select name="Food Preferance" id="food">
+                <option value="">--Select a Food Preference--</option>
+                <option value="north indian">North Indian</option>
+                <option value="south indian">South Indian</option>
+                <option value="chineses">Chinese</option>
+                <option value="continental">Continental</option>
+                <option value="none">None</option>
+            </select></p><br>
+            <p>Food Preferance II:
+            <select name="Food Preferance" id="food">
+                <option value="">--Select a Food Preference--</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="non-vegetarian">Non-Vegetarian</option>
+                <option value="both">Both</option>
+            </select></p><br>
+            <p>Location:
+            <select name="location" id="location">
+                <option value="">--Select a location--</option>
+                <option value="remote">Remote</option>
+                <option value="crowded">Crowded</option>
+                <option value="city">City</option>
+                <option value="Town">Town</option>
+            </select></p><br>
+            <p>Check-In:<input type="date" id="date" name="date" required placeholder="Check-In"></p><br>
+            <p>Check-Out:<input type="date" id="date" name="date" required placeholder="Check-Out"></p><br>
+            <h2>Payment Details</h2>
+            <p>Card Type:
+                <select name="card type" id="card type">
+                    <option value="">--Select a card type--</option>
+                    <option value="visa">visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">MasterCard</option>
+                </select>
+            </p>
+            <p>
+                Card Number<input type="number" name="card number" id="card number" placeholder="111-222-333-444">
+            </p>
+            <p>
+                Expiration Date:<input type="date" name="expiration date" id="expiration date">
+            </p>
+            <p>CVV <input type="password" name="cvv" id="cvv" placeholder="123"></p>
+            <input type="submit">
+                </div>
+
+            </form>
+        </content>
+        </main>
+        <footer>
+            <p style="padding-left: 35px; color: whitesmoke; font-size: 1.2vw;">Follow us</p><i style="color:white; padding: 10px;" class="bi bi-linkedin"></i><i style="color:white; padding: 10px;" class="bi bi-github"></i><i style="color:white; padding: 10px;" class="bi bi-twitter-x"></i><i style="color:white; padding: 10px;" class="bi bi-instagram"></i><i style="color:white; padding: 10px;" class="bi bi-facebook"></i>
+           <hr >
+           <a class="car" style="font-weight: 500;" href="#">More about us</a>
+           <a class="car" href="#">Contact us</a>
+           <a class="car" href="#"> Careers</a>
+           <a class="car" href="#">Locations</a>
+           <a class="car" href="#"> Blog</a>
+           <a class="car" href="#">Our team</a>
+           <br>
+           <hr>
+            <a class="an" href="#">FAQ</a>
+            <a class="an" href="#">Contact us</a>
+            <a class="an" href="#">Terms of Use</a>
+            <a class="an" href="#">Privacy Policy</a>
+            <a class="an" href="#">&copy; 2023 | Historical Places</a>
+            <a class="an" href="#">Designed And Developed By Fathima Shafa Abdul Majeed</a>
+        </footer>
+</body>
+</html>
